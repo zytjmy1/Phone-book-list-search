@@ -1,0 +1,32 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# 虚拟环境目录（如 .venv）
+.venv/
+
+# VS Code 配置（可选）
+.vscode/
+
+# Jupyter Notebook 检查点（如果使用）
+.ipynb_checkpoints/
+
+# pipenv/poetry 文件（如不使用可忽略）
+Pipfile.lock
+poetry.lock
+
+# 编译生成的文件（适用于 C++）
+*.o
+*.out
+*.exe
+my_program
+
+# MacOS 系统文件
+.DS_Store
+
+# 日志或临时文件
+*.log
+*.tmp

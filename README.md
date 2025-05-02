@@ -21,8 +21,8 @@ Output: output/output.txt: Search results.
 
 ## 🚀 How It Works
 
-Reads names from Chinese-namebook.txt.
-Generates pinyin substrings and stores in a map.
+Using the pypinyin package in python to read names from Chinese-namebook.txt,
+Generates pinyin substrings and stores in a Fuzzy search map in C++.
 Matches pinyin test cases from Test_Cases.txt.
 Outputs results to console and output.txt.
 
@@ -33,18 +33,20 @@ Windows (uses windows.h for UTF-8 console)
 UTF-8 encoded input files.
 
 ==which is the most important thing: keep every text file to be encoded as UTF-8!==
+
 ==which is the most important thing: keep every text file to be encoded as UTF-8!==
+
 ==which is the most important thing: keep every text file to be encoded as UTF-8!==
 
 ## 🔧 Build & Run
 
-Compile:g++ -o TelephoneBook TelephoneBook.cpp
+First of all, make sure the "run_all.ps1" file is in your project root directory.
 
-
-Run:./TelephoneBook
-
-
-Output: Check console and output/output.txt.
+Then, you need to run the instruction as follow:
+~~~bash
+.\run_all.ps1
+~~~
+After that, you could see the output in the "output" folder.
 
 ## 📋 Example
 Input (Chinese-namebook.txt):
